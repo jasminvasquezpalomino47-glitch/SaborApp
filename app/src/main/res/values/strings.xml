@@ -17,9 +17,35 @@
     <string name="menu_reportes">Reportes</string>
     <string name="menu_salir">Salir</string>
 
-    <!-- Subpantallas (Sprint 1) -->
-    <string name="info_platos">Pantalla de Carta de Platos</string>
-    <string name="info_mesas">Pantalla de Mesas</string>
+    <!-- Platos -->
+    <string name="titulo_platos">Carta de Platos</string>
+    <string name="btn_nuevo_plato">+ Nuevo Plato</string>
+    <string name="titulo_nuevo_plato">Registrar Plato</string>
+    <string name="hint_nombre_plato">Nombre del plato</string>
+    <string name="hint_categoria">Categoría</string>
+    <string name="hint_precio">Precio (S/)</string>
+    <string name="chk_disponible">Disponible</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="error_precio_invalido">Precio inválido</string>
+    <string name="msg_plato_guardado">Plato registrado correctamente</string>
+    <string name="estado_disponible">Disponible</string>
+    <string name="estado_agotado">Agotado</string>
+
+    <!-- Mesas -->
+    <string name="titulo_mesas">Mesas del Restaurante</string>
+    <string name="fmt_numero_mesa">Mesa #%1$d</string>
+    <string name="fmt_capacidad_mesa">%1$d pers.</string>
+    <string name="btn_nueva_mesa">+ Nueva Mesa</string>
+    <string name="titulo_agregar_mesa">Agregar Mesa</string>
+    <string name="hint_numero_mesa">Número de Mesa</string>
+    <string name="hint_capacidad_mesa">Capacidad (personas)</string>
+    <string name="error_mesa_existe">La mesa ya existe</string>
+    <string name="error_capacidad_invalida">Capacidad inválida</string>
+    <string name="msg_mesa_guardada">Mesa registrada correctamente</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="estado_libre">LIBRE</string>
+
+    <!-- Subpantallas (Sprint 2 placeholders) -->
     <string name="info_pedidos">Pantalla de Tomar Pedidos</string>
     <string name="info_reportes">Pantalla de Reportes de Ventas</string>
 </resources>
