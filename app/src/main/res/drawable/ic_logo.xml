@@ -1,0 +1,74 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Chef Hat Top Puff -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 32,38 C 28,32 30,22 38,20 C 42,16 58,16 62,20 C 70,22 72,32 68,38 Z" />
+
+    <!-- Chef Hat Fold Lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 43,26 L 43,36 M 50,23 L 50,36 M 57,26 L 57,36"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Chef Hat Base Band -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 33,39 C 33,37 67,37 67,39 L 65,44 C 65,46 35,46 35,44 Z" />
+
+    <!-- Left Wheat Ear / Leaves (Gold/Naranja) -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 22,42 C 18,48 20,55 26,60 M 24,46 C 16,52 18,60 27,65 M 26,52 C 20,58 22,66 31,70"
+        android:strokeColor="#E65100"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Right Wheat Ear / Leaves (Gold/Naranja) -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 78,42 C 82,48 80,55 74,60 M 76,46 C 84,52 82,60 73,65 M 74,52 C 80,58 78,66 69,70"
+        android:strokeColor="#E65100"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Crossed Rolling Pin (Rodillo) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 29,43 L 34,40 L 60,65 L 55,68 Z M 27,45 L 29,43 L 31,45 L 29,47 Z M 60,65 L 62,67 L 60,69 L 58,67 Z" />
+
+    <!-- Crossed Whisk (Batidor) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 71,43 L 66,40 L 40,65 L 45,68 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 71,43 C 76,38 68,34 66,40 C 62,44 68,48 71,43 Z"
+        android:strokeColor="#212121"
+        android:strokeWidth="1.5" />
+
+    <!-- Sparkles / Stars -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 30,32 L 31,34 L 33,35 L 31,36 L 30,38 L 29,36 L 27,35 L 29,34 Z" />
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 70,32 L 71,34 L 73,35 L 71,36 L 70,38 L 69,36 L 67,35 L 69,34 Z" />
+
+    <!-- Banner Ribbon at Bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 18,65 L 82,65 L 78,77 L 22,77 Z"
+        android:strokeColor="#212121"
+        android:strokeWidth="2" />
+    <!-- Banner Ribbons Ends -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 18,65 L 12,60 L 18,73 L 22,70 Z M 82,65 L 88,60 L 82,73 L 78,70 Z" />
+</vector>
