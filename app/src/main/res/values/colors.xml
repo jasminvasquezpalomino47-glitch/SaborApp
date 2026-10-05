@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="naranja">#E65100</color>
+    <color name="rojo">#C62828</color>
+    <color name="crema">#FFF3E0</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#212121</color>
+
+    <color name="verde_libre">#2E7D32</color>
+    <color name="rojo_ocupada">#D32F2F</color>
+    <color name="gris_texto">#757575</color>
+
+    <color name="verde_superficie">#E8F5E9</color>
+    <color name="rojo_superficie">#FFEBEE</color>
+</resources>

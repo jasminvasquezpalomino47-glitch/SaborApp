@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/rojo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlatos"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/menu_platos" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMesas"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/menu_mesas" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/menu_pedidos" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReportes"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/menu_reportes" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSalir"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/menu_salir" />
+</LinearLayout>

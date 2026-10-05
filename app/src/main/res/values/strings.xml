@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SaborApp</string>
+
+    <!-- Login -->
+    <string name="login_titulo">Pollería El Buen Sabor</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="error_campo_vacio">Este campo es obligatorio</string>
+    <string name="error_credenciales">Credenciales incorrectas</string>
+
+    <!-- Menú -->
+    <string name="menu_bienvenida">Hola, %1$s (%2$s)</string>
+    <string name="menu_platos">Gestionar Platos</string>
+    <string name="menu_mesas">Gestionar Mesas</string>
+    <string name="menu_pedidos">Tomar Pedidos</string>
+    <string name="menu_reportes">Reportes de Ventas</string>
+    <string name="menu_salir">Cerrar Sesión</string>
+
+    <!-- Platos -->
+    <string name="titulo_platos">Carta de Platos</string>
+    <string name="hint_buscar_plato">Buscar plato&#8230;</string>
+    <string name="btn_nuevo_plato">+ Nuevo Plato</string>
+    <string name="titulo_nuevo_plato">Registrar Plato</string>
+    <string name="titulo_editar_plato">Editar Plato</string>
+    <string name="hint_nombre_plato">Nombre del plato</string>
+    <string name="hint_categoria">Categoría</string>
+    <string name="hint_precio">Precio (S/)</string>
+    <string name="chk_disponible">Disponible</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="error_precio_invalido">Precio inválido (debe ser mayor a 0)</string>
+    <string name="msg_plato_guardado">Plato guardado correctamente</string>
+    <string name="msg_plato_actualizado">Plato actualizado correctamente</string>
+    <string name="msg_plato_eliminado">Plato eliminado correctamente</string>
+    <string name="error_eliminar_plato_pedidos">No se puede eliminar: tiene pedidos asociados</string>
+    <string name="confirm_eliminar_plato">¿Deseas eliminar este plato?</string>
+
+    <!-- Mesas -->
+    <string name="titulo_mesas">Mesas del Restaurante</string>
+    <string name="btn_nueva_mesa">+ Nueva Mesa</string>
+    <string name="titulo_agregar_mesa">Agregar Mesa</string>
+    <string name="hint_numero_mesa">Número de Mesa</string>
+    <string name="hint_capacidad_mesa">Capacidad (personas)</string>
+    <string name="error_mesa_existe">La mesa ya existe</string>
+    <string name="error_capacidad_invalida">Capacidad inválida (debe estar entre 1 y 12)</string>
+    <string name="msg_mesa_guardada">Mesa registrada correctamente</string>
+
+    <!-- Pedidos -->
+    <string name="titulo_pedidos">Tomar Pedidos por Mesa</string>
+    <string name="label_seleccionar_mesa">Selecciona una mesa:</string>
+    <string name="label_pedido_mesa">Pedido Mesa #%1$d (%2$s)</string>
+    <string name="hint_seleccionar_plato">Seleccionar plato</string>
+    <string name="hint_cantidad">Cantidad</string>
+    <string name="btn_agregar_plato">Agregar Plato</string>
+    <string name="label_total">Total: S/ %1$.2f</string>
+    <string name="btn_ver_cuenta">Ver Cuenta</string>
+    <string name="error_cantidad_invalida">Ingresa una cantidad mayor a 0</string>
+
+    <!-- Cuenta -->
+    <string name="titulo_cuenta">Cuenta - Mesa #%1$d</string>
+    <string name="label_detalle_consumo">Detalle del consumo:</string>
+    <string name="btn_cerrar_cuenta">Cerrar Cuenta</string>
+    <string name="btn_compartir_whatsapp">Compartir por WhatsApp</string>
+    <string name="msg_cuenta_cerrada">Cuenta cerrada correctamente. Mesa liberada.</string>
+    <string name="error_mesa_sin_pedido">La mesa no tiene pedido abierto</string>
+
+    <!-- Reportes -->
+    <string name="titulo_reportes">Reportes de Ventas</string>
+    <string name="label_ventas_hoy">Ventas del Día</string>
+    <string name="label_pedidos_hoy">Pedidos Cerrados Hoy</string>
+    <string name="label_pedidos_cerrados_count">Pedidos cerrados hoy: %1$d</string>
+    <string name="label_sin_ventas">Sin ventas hoy</string>
+    <string name="label_top_platos">Top 5 Platos más Vendidos</string>
+    <string name="label_ventas_por_mesa">Venta Total por Mesa</string>
+
+    <!-- General -->
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="estado_libre">LIBRE</string>
+    <string name="estado_ocupada">OCUPADA</string>
+    <string name="estado_disponible">Disponible</string>
+    <string name="estado_agotado">Agotado</string>
+</resources>

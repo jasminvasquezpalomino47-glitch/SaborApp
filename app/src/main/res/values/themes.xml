@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SaborApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/naranja</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/rojo</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <item name="android:windowBackground">@color/crema</item>
+        <item name="android:statusBarColor">@color/rojo</item>
+    </style>
+
+    <style name="Theme.SaborApp" parent="Base.Theme.SaborApp" />
+</resources>
